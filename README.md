@@ -1,5 +1,7 @@
 # zabbix_java_4_was
 zabbix java gateway for IBM WebSphere Application Server support
+this project base on zabbix_java_gateway 3.0
+only add some code on `JMXItemChecker.java`
 
 this project is to extend the zabbix_java_gateway to support IBM WebSphere Application Server. It can visit the WAS's Mbean to get more detail pmi data to monitor the WAS status.
 
