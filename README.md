@@ -26,7 +26,7 @@ This project is to extend the zabbix_java_gateway to support IBM WebSphere Appli
     
   - PoolSize
   
-    -- current
+    -- current 
     -- High Water
     
 Template Exemple：
