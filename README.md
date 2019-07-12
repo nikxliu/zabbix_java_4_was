@@ -25,4 +25,4 @@ Template Exemple：
     -- current
     -- High Water
 Template Exemple：
-  jmx["WebSphere:*,type=Perf",nodename.servername.drivername.datasourcename.PoolSize.current]
+  `jmx["WebSphere:*,type=Perf",nodename.servername.drivername.datasourcename.PoolSize.current]`
