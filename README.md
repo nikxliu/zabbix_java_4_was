@@ -8,36 +8,36 @@ this project is to extend the zabbix_java_gateway to support IBM WebSphere Appli
 
   - ActiveCount
   
-    -- current
-    
-    -- High Water
-    
-  -PoolSize
-  
-    -- current
-    -- High Water
-Template Exemple：
-   `jmx["WebSphere:*,type=Perf",nodename.servername.ThreadPool.WebContainer.PoolSize.current]`
-   `jmx["WebSphere:*,type=Perf",nodename.servername.ThreadPool.WebContainer.PoolSize.max]`
-2. DataSource
-
-  - FreePoolSize
-  
-    -- current
-    
+    -- current    
     -- High Water
     
   - PoolSize
   
     -- current
+    -- High Water
     
+Template Exemple：
+
+   `jmx["WebSphere:*,type=Perf",nodename.servername.ThreadPool.WebContainer.PoolSize.current]`
+   `jmx["WebSphere:*,type=Perf",nodename.servername.ThreadPool.WebContainer.PoolSize.max]`
+   
+2. DataSource
+
+  - FreePoolSize
+  
+    -- current    
+    -- High Water
+    
+  - PoolSize
+  
+    -- current    
     -- High Water
     
   - PercentUsed
   
-    -- current
-    
+    -- current    
     -- High Water
     
 Template Exemple：
+
   `jmx["WebSphere:*,type=Perf",nodename.servername.drivername.datasourcename.PoolSize.current]`
